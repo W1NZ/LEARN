@@ -1,0 +1,47 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:auto;
+    background-color:rgb(105, 142, 155);
+    border:rgb(128, 180, 240) solid 5px;
+    display:flex;
+    flex-direction: column;
+}
+header
+{ 
+    border:rgb(240, 128, 221) solid 5px;
+    display: flex;
+}
+nav
+{
+    border:rgb(128, 240, 147) solid 5px;
+    display: flex;
+
+}
+
+#opcja_pierwsza,#opcja_druga,#opcja_trzecia,#opcja_czwarta
+{   
+    
+    border:lightcoral solid 5px;
+    width: 100%;
+    display: flex;
+
+}
+main
+{
+    border:rgb(54, 10, 134) solid 5px;
+    display:flex;
+}
+footer
+{
+    border:rgb(19, 156, 6) solid 5px;
+    display: flex;
+}
+#nazwa
+{
+   font-size:xx-large;
+   display: flex;
+}
